@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css';
+import { Button } from '.components/Button';
 
 
 export default function Navbar() {
@@ -59,9 +61,9 @@ export default function Navbar() {
                   
                   </li>
                 </ul>
-                {button && <Button buttonStyle='btn--outline'> Sign up </Button>}
+                {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
             </div>  
           </nav>  
         </>
-    )
+    );
 }
