@@ -2,43 +2,82 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: Rubik, sans-serif;
   }
-  
-  .home,
-  .services,
-  .products,
-  .sign-up {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
+
+ h1{
+   color: #fff;
+ }
+
+.SignUp {
+  background-color: grey;
+  color: #fff;
+  top: 10px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 300px;
+}
+
+input[type="submit"] {
+  width: 100px;
+}
+
+.TheHorusHeresy {
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('components/images/emperor-vs-horus.jpg');
+  background-size: cover;
+  object-fit: contain;
+}
+
+#scroll-container {
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  height: 60%;
+  width: 60%;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.575);
+  color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+  #scroll-container {
+    width: 100%;
   }
-  
-  .services {
-    background-image: url('components/images/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .products {
-    background-image: url('components/images/img-1.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .sign-up {
-    background-image: url('components/images/img-8.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  } 
+}
+
+.RiseofMankind {
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.TheGreatCrusade {
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  background-image: url('components/images/Mechanicum.png');
+  background-size: cover;
+}

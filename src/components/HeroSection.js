@@ -6,25 +6,21 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>ADVENTURE AWAITS</h1>
-      <p>What are you waiting for?</p>
+
+    <video src='/videos/Astartes.mp4' autoPlay loop muted />
+      <h1>In the grim darkness of the far future there is only war</h1>
+
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
-        >
-          GET STARTED
+        <Button className='btn btn--primary btn--large' buttonStyle='btn--outline' buttonSize='btn--large'>
+          Sign Up
         </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-          onClick={console.log('hey')}
-        >
-          WATCH TRAILER <i className='far fa-play-circle' />
-        </Button>
+
+        <a href="https://www.youtube.com/embed/B9V0bOB8sXQ">
+          <button className='btn btn--primary btn--large' buttonStyle='btn--primary' buttonSize='btn--large'>
+            Watch Trailer
+            <i className='far fa-play-circle' />
+          </button>
+        </a>
       </div>
     </div>
   );

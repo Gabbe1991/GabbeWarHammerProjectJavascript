@@ -14,15 +14,12 @@ buttonSize}) => {
      const checkbuttonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
      return (
-         <Link to='/sign-up' className='btn-mobile'>
+         <Link to='/SignUp' className='btn-mobile'>
              <button className={`btn ${checkButtonStyle} ${checkbuttonSize}`}
              onClick={onClick}
-             type={type}
-             >
+             type={type}>
                  {children}
              </button>
          </Link>
      )
-
-
 };
