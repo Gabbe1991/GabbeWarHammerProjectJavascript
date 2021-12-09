@@ -7,6 +7,7 @@ import SignUp from './components/pages/SignUp'
 import TheHorusHeresy from './components/pages/TheHorusHeresy'
 import RiseofMankind from './components/pages/RiseofMankind'
 import TheGreatCrusade from './components/pages/TheGreatCrusade'
+import Joke from './components/Joke'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/RiseofMankind' exact component={RiseofMankind} />
       <Route path='/TheGreatCrusade' exact component={TheGreatCrusade} />
     </Switch>
+    <Joke/>
     </Router>
     </>
   );
