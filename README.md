@@ -1,3 +1,22 @@
+Uninstall >npm uninstall react-router-dom<
+Then use >npm install react-router-dom@5.2.0<
+
+//Gabriel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
